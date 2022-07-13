@@ -1,0 +1,8 @@
+-
+  name: Restart docker-compose
+  hosts: all
+  tasks:
+    - name: docker-compose restart
+      community.docker.docker_compose:
+        project_src: /work/a
+        build: no

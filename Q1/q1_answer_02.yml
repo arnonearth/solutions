@@ -1,0 +1,8 @@
+-
+  name: Restart a systemd service called "docker-compose"
+  hosts: all
+  tasks:
+    - name: docker-compose service restart 
+      ansible.builtin.systemd:
+        name: docker-compose.service
+        state: restarted
