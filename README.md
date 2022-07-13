@@ -6,7 +6,7 @@ I store the answer for Q2 and Q3 as `helloworld_ci_workflow` at `.github/workflo
 
 ### Repository structure
 ```
-helloworld
+solutions
 │   README.md    
 │
 └───.github
