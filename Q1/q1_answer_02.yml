@@ -1,4 +1,4 @@
--
+---
   name: Restart a systemd service called "docker-compose"
   hosts: all
   tasks:
